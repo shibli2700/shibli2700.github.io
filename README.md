@@ -14,7 +14,7 @@ numpy
 
 You can perform Linear Regression, Multiple Linear Regression using the linear_model package included in Zeus.
 
-```
+```python
 from zeus.linear_regressors import regressors
 
 regressor = regressors.LIRegressor()
