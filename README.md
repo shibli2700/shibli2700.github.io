@@ -4,10 +4,25 @@ Zeus is created to provide an in-depth knowledge of some commonly used Machine L
 
 ## Prerequisites
 
-What things you need to install to run Zeus
+Following packages are needed to install to run zeus
+
+- Numpy
+- Python 3
+
+You can install numpy using pip.
 
 ```
-numpy
+$ pip install numpy
+```
+
+## Installing Zeus
+
+Download or clone the Zeus Repository from the following [Link](https://github.com/shibli2700/shibli2700.github.io)
+
+Run the following command on your terminal to install Zeus
+
+```
+$ python setup.py build
 ```
 
 ## linear_model example
