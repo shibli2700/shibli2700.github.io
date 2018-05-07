@@ -4,8 +4,6 @@ Zeus is created to provide an in-depth knowledge of some commonly used Machine L
 
 ## Prerequisites
 
-Following packages are needed to install to run zeus
-
 - Numpy
 - Python 3
 
