@@ -51,14 +51,15 @@ from zeus.tree import classifiers
 classifier = classifiers.DTreeClassifier()
 
 #training data having features such as Ear size, Body Size
-
 training_data = [["Long","Big","Dog"],["Short","Small","Cat"],["Long","Small","Dog"]]
 
 #test data
 test_data = [["Short","Big"],["Big","Short"]]
-
-
 node = classifier.train(training_data)
 
 classifier.predict(test_data, node)
+```
+### Output
+```
+[{'Cat': '100%'}, {'Dog': '100%'}]
 ```
