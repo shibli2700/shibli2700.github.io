@@ -40,3 +40,25 @@ y_train = [[10000],[20000],[30000],[45000]]
 regressor.train(x_train, y_train)
 regressor.predict(5)
 ```
+
+## Decision Tree Classifier Example
+
+Decision Tree Classification can be done using the class DTreeClassifier() of the tree package.
+
+```python
+from zeus.tree import classifiers
+
+classifier = classifiers.DTreeClassifier()
+
+#training data having features such as Ear size, Body Size
+
+training_data = [["Long","Big","Dog"],["Short","Small","Cat"],["Long","Small","Dog"]]
+
+#test data
+test_data = [["Short","Big"],["Big","Short"]]
+
+
+node = classifier.train(training_data)
+
+classifier.predict(test_data, node)
+```
