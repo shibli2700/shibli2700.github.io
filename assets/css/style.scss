@@ -3,8 +3,12 @@
 
 @import "{{ site.theme }}";
 
-header h1, h2{
+header h1{
   display: none;
+}
+
+header h2{
+  display:none;
 }
 
 .container{
